@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DynamicColorPreview</string>
+
+    <string name="app_widget_description">Device color preview widget</string>
+</resources>

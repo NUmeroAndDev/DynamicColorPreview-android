@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.DynamicColorPreview.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.DynamicColorPreview.AppWidgetContainer">
+
+    <include layout="@layout/app_widget_color_preview_primary" />
+
+    <include layout="@layout/app_widget_color_preview_primary_dark" />
+
+    <include layout="@layout/app_widget_color_preview_accent" />
+
+    <include layout="@layout/app_widget_color_preview_background" />
+
+    <include layout="@layout/app_widget_color_preview_foreground" />
+
+    <include layout="@layout/app_widget_color_preview_text_primary" />
+
+    <include layout="@layout/app_widget_color_preview_text_secondary" />
+
+</LinearLayout>

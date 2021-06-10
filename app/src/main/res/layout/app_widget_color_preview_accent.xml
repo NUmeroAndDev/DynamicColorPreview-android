@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.DynamicColorPreview.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/accentTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:text="Accent"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        style="@style/Widget.DynamicColorPreview.AppWidget.InnerView"
+        android:layout_width="56dp"
+        android:layout_height="32dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorAccent" />
+
+    </FrameLayout>
+
+</LinearLayout>

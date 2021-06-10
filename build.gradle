@@ -1,0 +1,37 @@
+buildscript {
+    ext {
+        versions = [
+                compileSdk: "android-S",
+                minSdk    : "S",
+                targetSdk : "S",
+
+                kotlin    : "1.5.10",
+        ]
+
+        libs = [
+                kotlinPlugin: "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin",
+
+                androidx    : [
+                        core            : "androidx.core:core-ktx:1.6.0-beta02",
+                        appcompat       : "androidx.appcompat:appcompat:1.4.0-alpha02",
+                        constraintlayout: "androidx.constraintlayout:constraintlayout:2.0.4"
+                ],
+
+                material    : "com.google.android.material:material:1.4.0-rc01"
+        ]
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.0-beta02"
+        classpath libs.kotlinPlugin
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
