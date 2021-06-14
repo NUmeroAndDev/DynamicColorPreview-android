@@ -3,4 +3,9 @@
         <attr name="appWidgetInnerRadius" format="dimension" />
         <attr name="appWidgetRadius" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="ColorInfoView">
+        <attr name="title" format="string" />
+        <attr name="infoColor" format="color" />
+    </declare-styleable>
 </resources>

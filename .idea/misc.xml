@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v21/app_widget_background.xml" value="0.3112820512820513" />
         <entry key="app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.3112820512820513" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/drawable/app_widget_background.xml" value="0.30277777777777776" />
         <entry key="app/src/main/res/drawable/app_widget_inner_view_background.xml" value="0.15625" />
+        <entry key="app/src/main/res/drawable/bg_theme_color.xml" value="0.3307291666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/app_widget_color_preview_accent.xml" value="0.2015625" />
         <entry key="app/src/main/res/layout/app_widget_color_preview_background.xml" value="0.1" />
@@ -19,6 +21,7 @@
         <entry key="app/src/main/res/layout/app_widget_color_preview_text_secondary.xml" value="0.1" />
         <entry key="app/src/main/res/layout/color_preview_app_widget.xml" value="0.1" />
         <entry key="app/src/main/res/layout/color_preview_app_widget_preciew.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/view_color_info.xml" value="0.3145833333333333" />
       </map>
     </option>
   </component>
