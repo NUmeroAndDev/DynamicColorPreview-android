@@ -11,4 +11,5 @@
 local.properties
 *.apk
 output.json
+output-metadata.json
 *.aab
