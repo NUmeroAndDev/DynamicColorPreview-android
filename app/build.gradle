@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkPreview versions.compileSdk
+    compileSdkVersion versions.compileSdk
 
     defaultConfig {
         applicationId "jp.numero.dynamiccolorpreview"
         minSdkVersion versions.minSdk
-        targetSdkPreview versions.targetSdk
+        targetSdkVersion versions.targetSdk
         versionCode 1
         versionName "0.1"
 
